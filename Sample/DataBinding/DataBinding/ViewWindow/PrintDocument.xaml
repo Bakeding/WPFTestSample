@@ -1,0 +1,96 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              ColumnWidth="400" FontSize="14" FontFamily="宋体"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" TextOptions.TextFormattingMode="Display">
+    <FlowDocument.Resources>
+        <Style TargetType="Table" x:Key="BorderedTable">
+            <Setter Property="CellSpacing" Value="0"></Setter>
+            <Setter Property="BorderThickness" Value="1"></Setter>
+            <Setter Property="BorderBrush" Value="#000"></Setter>
+        </Style>
+        <Style TargetType="TableCell" x:Key="BorderedCell">
+            <Setter Property="BorderThickness" Value="0.5"></Setter>
+            <Setter Property="BorderBrush" Value="#000"></Setter>
+            <Setter Property="Padding" Value="3"></Setter>
+        </Style>
+    </FlowDocument.Resources>
+    <Paragraph Padding="150,50,50,0">
+        <Run FontSize="25" FontWeight="Bold" > 实验记录表</Run>
+    </Paragraph>
+    <Table FontSize="16">
+        <Table.Columns>
+            <TableColumn Width="200"></TableColumn>
+            <TableColumn Width="600"></TableColumn>
+        </Table.Columns>
+        <TableRowGroup>
+            <TableRow>
+                <TableCell>
+                    <Paragraph>
+                        姓名
+                    </Paragraph>
+                </TableCell>
+                <TableCell>
+                    <Paragraph>
+                        <Run Text="{Binding Name}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+            <TableRow>
+                <TableCell>
+                    <Paragraph>
+                        年龄
+                    </Paragraph>
+                </TableCell>
+                <TableCell>
+                    <Paragraph>
+                        <Run Text="{Binding Age}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+            <TableRow>
+                <TableCell>
+                    <Paragraph>
+                        爱好
+                    </Paragraph>
+                </TableCell>
+                <TableCell>
+                    <Paragraph>
+                        <Run Text="{Binding Hobby}"></Run>
+                    </Paragraph>
+                </TableCell>
+            </TableRow>
+            
+        </TableRowGroup>
+    </Table>
+    
+    <Table Style="{StaticResource BorderedTable}">
+        <Table.Columns>
+            <TableColumn Width="150"></TableColumn>
+            <TableColumn Width="150"></TableColumn>
+            <TableColumn Width="60"></TableColumn>
+            <TableColumn Width="60"></TableColumn>
+            <TableColumn Width="80"></TableColumn>
+            <TableColumn Width="80"></TableColumn>
+            <TableColumn Width="120"></TableColumn>
+        </Table.Columns>
+        <TableRowGroup Name="rowsDetails">
+            <TableRow FontWeight="Bold" >
+                <TableCell Style="{StaticResource BorderedCell}" ColumnSpan="1">
+                    <Paragraph>用户名</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}">
+                    <Paragraph>等级</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}">
+                    <Paragraph>密码</Paragraph>
+                </TableCell>
+                <TableCell Style="{StaticResource BorderedCell}">
+                    <Paragraph>状态</Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+    </Table>
+
+    <Paragraph FontSize="16">
+        <Image Height="400" Width="700" Stretch="Fill" Source="img/image.png" />
+    </Paragraph>
+</FlowDocument>

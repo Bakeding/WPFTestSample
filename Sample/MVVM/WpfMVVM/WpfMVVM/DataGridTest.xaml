@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfMVVM.DataGridTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:core="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:WpfMVVM.Models"
+        Title="C# WPF DataGrid" Height="350" Width="525" Loaded="MainWindowLoaded">
+    <Window.Resources>
+        <ObjectDataProvider x:Key="SexualEnum" MethodName="GetValues" ObjectType="{x:Type core:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type Type="local:sexual_enum"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="283*"/>
+        </Grid.RowDefinitions>
+        <Label Content="DataGrid" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="DATA_GRID" ItemsSource="{Binding}" AutoGenerateColumns="False" Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="姓名" Binding="{Binding name}"/>
+                <DataGridTextColumn Header="年龄" Binding="{Binding age}"/>
+                <DataGridComboBoxColumn Header="性别" SelectedItemBinding="{Binding sexual}" ItemsSource="{Binding Source={StaticResource SexualEnum}}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="BTN_CHK_DATA" Content="CheckData" HorizontalAlignment="Left" Margin="432,10,0,0" VerticalAlignment="Top" Width="75" Click="BTN_CHK_DATA_Click"/>
+
+    </Grid>
+</Window>

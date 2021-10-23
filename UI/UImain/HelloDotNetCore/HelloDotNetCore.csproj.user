@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewWindow\Chat.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewWindow\ClockWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewWindow\CustomMenuWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewWindow\DashBoardWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewWindow\DropDownMenuWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewWindow\InputDataChangeValidate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewWindow\MenuMVVM.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewWindow\MenuSlideInWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewWindow\NavigationDrawerPopUpMenuWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\Chat.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\ClockWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\CustomMenuWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\DashBoardWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\DropDownMenuWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\InputDataChangeValidate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\MenuMVVM.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\MenuSlideInWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\NavigationDrawerPopUpMenuWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\UserControlCreate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\UserControlHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\UserControlMenuItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\UserControlMessageReceived.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewWindow\UserControlMessageSent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

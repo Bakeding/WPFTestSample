@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxyplotTest", "OxyplotTest\OxyplotTest.csproj", "{17CF36B2-E5FE-45A9-901B-650008846BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialport_LinePlot_Interactive", "Serialport_LinePlot_Interactive\Serialport_LinePlot_Interactive.csproj", "{1587EAFB-949A-488E-80A8-DF2F86161FDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17CF36B2-E5FE-45A9-901B-650008846BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CF36B2-E5FE-45A9-901B-650008846BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CF36B2-E5FE-45A9-901B-650008846BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CF36B2-E5FE-45A9-901B-650008846BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1587EAFB-949A-488E-80A8-DF2F86161FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1587EAFB-949A-488E-80A8-DF2F86161FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1587EAFB-949A-488E-80A8-DF2F86161FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1587EAFB-949A-488E-80A8-DF2F86161FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

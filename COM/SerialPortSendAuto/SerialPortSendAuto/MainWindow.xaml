@@ -1,0 +1,26 @@
+﻿<Window x:Class="SerialPortSendAuto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="串口端口自动发送程序" Height="93.001" Width="354.302" 
+        WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" ResizeMode="NoResize" Icon="Circle.ico" >
+    <Grid>
+        <Button Content="自动发送数据" Name="btnSend" FontSize="13"  HorizontalAlignment="Left" Margin="241,19,0,0" VerticalAlignment="Top" Width="95" Height="25" Click="btnSend_Click"/>
+        <ComboBox Name="cbPort" HorizontalAlignment="Left" Margin="11,19,0,0" VerticalAlignment="Top" Width="66" Height="25">
+            <ComboBoxItem Content="COM1" Name="COM1"  />
+            <ComboBoxItem Content="COM2" Name="COM2" IsSelected="True"/>
+        </ComboBox>
+        <ComboBox Name="cbInterval" HorizontalAlignment="Left" Margin="85,19,0,0" VerticalAlignment="Top" Width="63" Height="25">
+            <ComboBoxItem Content="10" />
+            <ComboBoxItem Content="1" IsSelected="True" />
+            <ComboBoxItem Content="0.1" />
+            <ComboBoxItem Content="0.01" />
+            <ComboBoxItem Content="0.001" />
+        </ComboBox>
+        <ComboBox Name="cbCurveType" HorizontalAlignment="Left" Margin="158,19,0,0" VerticalAlignment="Top" Width="72" Height="25">
+            <ComboBoxItem Content="自增" />
+            <ComboBoxItem Content="正弦" IsSelected="True" />
+            <ComboBoxItem Content="随机数100以内" />
+        </ComboBox>
+
+    </Grid>
+</Window>

@@ -1,0 +1,123 @@
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\Assets\TextBox.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\Content\FruitInfoView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MainWindow.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BothWayBindView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\CommandView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessengerRegisterView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessengerSenderView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\WelcomeView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\Content\FruitInfoView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MainWindow.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindingAdvancedView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindingFormView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BothWayBindView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\CommandAdvanceView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\CommandView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessengerRegisterView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessengerSenderView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\WelcomeView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\App.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo_MarkupCompile.cache
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo_MarkupCompile.lref
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\App.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindingFormView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\CommandAdvanceView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.exe
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\MVVMLightDemo.exe.config
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\MVVMLightDemo.exe
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\MVVMLightDemo.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.dll
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\System.Windows.Interactivity.dll
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindingAdvancedView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.g.resources
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.Properties.Resources.resources
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.csproj.GenerateResource.Cache
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindBasic.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindBasic.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\PackagedValidate.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\PackagedValidate.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\DispatcherHelper.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\DispatcherHelper.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\DispatchBasic.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\DispatchBasic.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.csprojResolveAssemblyReference.cache
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessagerForView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessagerForView.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\MVVMLightDemo.exe.config
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\MVVMLightDemo.exe
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\MVVMLightDemo.pdb
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\System.Windows.Interactivity.dll
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.pdb
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.xml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\de\System.Windows.Interactivity.resources.dll
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\en\System.Windows.Interactivity.resources.dll
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\es\System.Windows.Interactivity.resources.dll
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\it\System.Windows.Interactivity.resources.dll
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.csprojAssemblyReference.cache
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\Assets\TextBox.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\Content\FruitInfoView.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\MainWindow.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\BindBasic.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\BothWayBindView.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\CommandView.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\MessengerRegisterView.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\MessengerSenderView.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\WelcomeView.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\Content\FruitInfoView.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\MainWindow.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\BindBasic.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\BindingAdvancedView.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\BindingFormView.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\BothWayBindView.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\CommandAdvanceView.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\CommandView.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\DispatchBasic.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\DispatcherHelper.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\MessengerRegisterView.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\MessengerSenderView.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\MessagerForView.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\PackagedValidate.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\WelcomeView.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\App.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo_MarkupCompile.cache
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo_MarkupCompile.lref
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\App.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\BindingAdvancedView.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\BindingFormView.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\CommandAdvanceView.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\DispatchBasic.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\DispatcherHelper.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\MessagerForView.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\View\PackagedValidate.baml
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.g.resources
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.Properties.Resources.resources
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.csproj.GenerateResource.cache
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.csproj.CopyComplete
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.exe
+G:\CSharpSample\DownLoadSample\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.pdb

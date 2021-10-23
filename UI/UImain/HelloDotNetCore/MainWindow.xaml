@@ -1,0 +1,28 @@
+﻿<Window x:Class="HelloDotNetCore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloDotNetCore"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF1E64AA">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Button x:Name="btnLogin" Content="登陆" Click="btnLogin_Click"></Button>
+            <Button x:Name="btnMenuMVVM" Content="菜单" Click="btnMenuMVVM_Click"></Button>
+            <Button x:Name="btnChat" Content="聊天" Click="btnChat_Click"></Button>
+            <Button x:Name="btnInputDataChange" Content="输入修改保存验证" Click="btnInputDataChange_Click"></Button> 
+            <Button x:Name="btnDropDownMenu" Content="左侧下拉菜单" Click="btnDropDownMenu_Click"></Button>
+            <Button x:Name="btnNavigationDrawerPopUpMenu" Content="左侧抽屉菜单" Click="btnNavigationDrawerPopUpMenu_Click"></Button>
+            <Button x:Name="btnClock" Content="时钟" Click="btnClock_Click"></Button>
+            <Button x:Name="btnMenuSlideIn" Content="左侧菜单划入" Click="btnMenuSlideIn_Click"></Button>
+            <Button x:Name="btnDashBoard" Content="左侧菜单新" Click="btnDashBoard_Click"></Button>
+            <Button x:Name="btnCustomMenu" Content="左侧菜单新2" Click="btnCustomMenu_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Window>

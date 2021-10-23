@@ -1,0 +1,172 @@
+﻿<Window x:Class="DataBinding.ViewWindow.DoubleAxisPlotWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d3="clr-namespace:InteractiveDataDisplay.WPF;assembly=InteractiveDataDisplay.WPF"
+        xmlns:tk="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit"
+        Title="DoubleAxisPlotWindow" Height="600" Width="800">
+    <Window.Resources>
+        <Style x:Key="PolylineStyle" TargetType="Polyline">
+            <Setter Property="StrokeThickness" Value="5" />
+        </Style>
+
+        <Style x:Key="LineDataPointStyle" TargetType="tk:LineDataPoint">
+            <!--<Setter Property="Background" Value="#0077CC" />-->
+            <Setter Property="Background" >
+                <Setter.Value>
+                    <Binding Path="Tag" RelativeSource="{RelativeSource AncestorType={x:Type tk:LineSeries}}" />
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush" Value="White" />
+            <Setter Property="BorderThickness" Value="2" />
+            <Setter Property="IsTabStop" Value="False" />
+            <Setter Property="Height" Value="10" />
+            <Setter Property="Width" Value="10" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="tk:LineDataPoint">
+                        <Grid x:Name="Root" Opacity="1">
+                            <ToolTipService.ToolTip>
+                                <StackPanel Margin="2,2,2,2">
+                                    <ContentControl Content="{TemplateBinding IndependentValue}" ContentStringFormat="X-Value: {0:HH:mm:ss}"/>
+                                    <ContentControl Content="{TemplateBinding DependentValue}" ContentStringFormat="Y-Value: {0:###.###}"/>
+                                </StackPanel>
+                            </ToolTipService.ToolTip>
+                            <Rectangle StrokeThickness="{TemplateBinding BorderThickness}" Stroke="{TemplateBinding BorderBrush}" Fill="{TemplateBinding Background}"></Rectangle>
+                            <!--Ellipse StrokeThickness="{TemplateBinding BorderThickness}" Stroke="{TemplateBinding BorderBrush}" Fill="{TemplateBinding Background}"/-->
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CommonLineSeries" TargetType="tk:LineSeries" BasedOn="{StaticResource {x:Type tk:LineSeries}}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="tk:LineSeries">
+                        <Canvas x:Name="PlotArea">
+                            <Polyline Points="{TemplateBinding Points}" Stroke="{Binding Tag, RelativeSource={RelativeSource AncestorType={x:Type tk:LineSeries}}}" Style="{TemplateBinding PolylineStyle}"/>
+                        </Canvas>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <Style x:Key="LinearAxisStyle" TargetType="tk:LinearAxis">
+            <Setter Property="GridLineStyle">
+                <Setter.Value>
+                    <Style TargetType="Line">
+                        <Setter Property="Stroke" Value="#20000000" />
+                    </Style>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="NonLinearAxisStyle" TargetType="tk:DateTimeAxis">
+            <Setter Property="GridLineStyle">
+                <Setter.Value>
+                    <Style TargetType="Line">
+                        <Setter Property="Stroke" Value="#20000000" />
+                    </Style>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="DateTimeAxisLabelStyle" TargetType="tk:DateTimeAxisLabel">
+            <Setter Property="StringFormat" Value="{}{0:mm:ss}" />
+        </Style>
+
+        <Style x:Key="ChartTitleStyle" TargetType="visualizationToolkit:Title" 
+               xmlns:visualizationToolkit="clr-namespace:System.Windows.Controls.DataVisualization;assembly=System.Windows.Controls.DataVisualization.Toolkit" >
+            <Setter Property="Visibility" Value="Collapsed"/>
+        </Style>
+    </Window.Resources>
+    <Grid Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TabControl>
+            <TabItem Header="双Y轴">
+                <tk:Chart Name="chart1" Title="{Binding Title}" Grid.Row="0">
+                    <tk:Chart.Template>
+                        <ControlTemplate TargetType="{x:Type tk:Chart}"
+                                 xmlns:visualizationToolkit="clr-namespace:System.Windows.Controls.DataVisualization;assembly=System.Windows.Controls.DataVisualization.Toolkit" 
+                                 xmlns:Primitives="clr-namespace:System.Windows.Controls.DataVisualization.Charting.Primitives;assembly=System.Windows.Controls.DataVisualization.Toolkit" >
+                            <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <visualizationToolkit:Title Content="{TemplateBinding Title}" Style="{TemplateBinding TitleStyle}"/>
+                                    <Grid Grid.Row="1">
+                                        <Primitives:EdgePanel x:Name="ChartArea" Style="{TemplateBinding ChartAreaStyle}" >
+                                            <Grid Style="{TemplateBinding PlotAreaStyle}" Panel.ZIndex="-1" Background="LightBlue" Opacity="0.3" />
+                                            <Border BorderBrush="#FF919191" BorderThickness="1" Panel.ZIndex="10"/>
+                                        </Primitives:EdgePanel>
+                                        <visualizationToolkit:Legend x:Name="Legend"
+                                                             Style="{TemplateBinding LegendStyle}" 
+                                                             Title="{TemplateBinding LegendTitle}"
+                                                             HorizontalAlignment="Right"
+                                                             VerticalAlignment="Top"
+                                                             Margin="0 2 2 0" Opacity="0.6" Background="White"/>
+                                    </Grid>
+                                </Grid>
+                            </Border>
+                        </ControlTemplate>
+                    </tk:Chart.Template>
+                    <tk:Chart.Axes>
+                        <tk:LinearAxis Orientation="X" Title="{Binding xTitleList[0]}" ></tk:LinearAxis>
+                    </tk:Chart.Axes>
+                    <tk:LineSeries x:Name="line1" DependentValuePath="Value" Title="{Binding LegendTitleList[0]}" IndependentValuePath="Key" ItemsSource="{Binding lines[0]}">
+                        <tk:LineSeries.DependentRangeAxis>
+                            <tk:LinearAxis Name="yAxisline1"  Orientation="Y" Interval="10" Minimum="0" Maximum="100" Title="{Binding yTitleList[0]}"></tk:LinearAxis>
+                        </tk:LineSeries.DependentRangeAxis>
+                    </tk:LineSeries>
+                    <tk:LineSeries x:Name="line2" DependentValuePath="Value"  Title="{Binding LegendTitleList[1]}" IndependentValuePath="Key" ItemsSource="{Binding lines[1]}">
+                        <tk:LineSeries.DependentRangeAxis>
+                            <tk:LinearAxis Orientation="Y" Interval="100" Title="{Binding yTitleList[1]}"></tk:LinearAxis>
+                        </tk:LineSeries.DependentRangeAxis>
+                    </tk:LineSeries>
+                    <tk:LineSeries x:Name="line3" DependentValuePath="Value"  Title="{Binding LegendTitleList[2]}" IndependentValuePath="Key" ItemsSource="{Binding LineDictionary}">
+                        <tk:LineSeries.DependentRangeAxis>
+                            <tk:LinearAxis Orientation="Y" Interval="1000" Title="{Binding yTitleList[2]}"></tk:LinearAxis>
+                        </tk:LineSeries.DependentRangeAxis>
+                    </tk:LineSeries>
+                </tk:Chart>
+            </TabItem>
+            
+            <TabItem Header="chart2">
+                <Grid Name="grdMain">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="6*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <tk:Chart x:Name="simChart"  TitleStyle="{StaticResource ResourceKey=ChartTitleStyle}">
+                        <tk:Chart.LegendStyle>
+                            <Style TargetType="visualizationToolkit:Legend" xmlns:visualizationToolkit="clr-namespace:System.Windows.Controls.DataVisualization;assembly=System.Windows.Controls.DataVisualization.Toolkit" >
+                                <Setter Property="Width" Value="0" />
+                            </Style>
+                        </tk:Chart.LegendStyle>
+                            <tk:Chart.Axes>
+                            <tk:DateTimeAxis Name="xAxis" ShowGridLines="True" Orientation="X" Style="{StaticResource ResourceKey=NonLinearAxisStyle}" AxisLabelStyle="{StaticResource ResourceKey=DateTimeAxisLabelStyle}" />
+                            <tk:LinearAxis Orientation="Y" ShowGridLines="True" Style="{StaticResource ResourceKey=LinearAxisStyle}" />
+                        </tk:Chart.Axes>
+
+                        <!--<chrt:LineSeries IsSelectionEnabled="True" PolylineStyle="{StaticResource ResourceKey=PolylineStyle}" 
+                         DataPointStyle="{StaticResource ResourceKey=LineDataPointStyle}" 
+                         ItemsSource="{Binding}"
+                         IndependentValueBinding="{Binding Name}" 
+                         DependentValueBinding="{Binding Value}"
+                         Tag="Red" Style="{StaticResource CommonLineSeries}">
+
+        </chrt:LineSeries>-->
+                    </tk:Chart>
+                    <Button Name="btnStartCharting"  Grid.Row="1"  Width="Auto"  HorizontalAlignment="Right"  Margin="5" Click="btnStartCharting_Click" Content="Start Charting"></Button>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        
+
+    </Grid>
+</Window>

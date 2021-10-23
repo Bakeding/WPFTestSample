@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dishes>
+  <Dish>
+    <Name>土豆</Name>
+    <Category>披萨</Category>
+    <Comment>本店特色</Comment>
+    <Score>4</Score>
+  </Dish>
+  <Dish>
+    <Name>土豆1</Name>
+    <Category>披萨1</Category>
+    <Comment>本店特色1</Comment>
+    <Score>4</Score>
+  </Dish>
+  <Dish>
+    <Name>土豆2</Name>
+    <Category>披萨2</Category>
+    <Comment>本店特色2</Comment>
+    <Score>4</Score>
+  </Dish>
+  <Dish>
+    <Name>土豆3</Name>
+    <Category>披萨3</Category>
+    <Comment>本店特色3</Comment>
+    <Score>4</Score>
+  </Dish>
+  <Dish>
+    <Name>土豆4</Name>
+    <Category>披萨4</Category>
+    <Comment>本店特色4</Comment>
+    <Score>4</Score>
+  </Dish>
+</Dishes>

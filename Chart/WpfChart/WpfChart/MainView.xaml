@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfChart.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Height="700" Width="800" WindowStartupLocation="CenterScreen"
+        WindowState="Maximized" TextOptions.TextFormattingMode="Display">
+    <Grid>
+        <TabControl x:Name="Items"/>
+    </Grid>
+</Window>

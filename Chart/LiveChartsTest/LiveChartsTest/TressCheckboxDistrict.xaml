@@ -1,0 +1,18 @@
+﻿<Window x:Class="LiveChartsTest.TressCheckboxDistrict"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TressCheckboxDistrict" Height="300" Width="300">
+    <Window.Resources>
+        <HierarchicalDataTemplate x:Key="treeTemplate" ItemsSource="{Binding Children}">
+            <StackPanel Orientation="Horizontal">
+                <CheckBox IsChecked="{Binding IsChecked}"></CheckBox>
+                <Image Source="{Binding Img}" Height="20" Width="16"></Image>
+                <TextBlock Text="{Binding District.Xzqhmc}"></TextBlock>
+            </StackPanel>
+        </HierarchicalDataTemplate>
+    </Window.Resources>
+    <Grid>
+        <TreeView  ItemTemplate="{StaticResource treeTemplate}" ItemsSource="{Binding VmNodes}">
+        </TreeView>
+    </Grid>
+</Window>

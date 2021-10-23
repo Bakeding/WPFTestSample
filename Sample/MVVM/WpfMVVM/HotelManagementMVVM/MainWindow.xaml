@@ -1,0 +1,56 @@
+﻿<Window x:Class="HotelManagementMVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{Binding Restaurant.Name, StringFormat=\{0\}-在线订餐}" Height="600" Width="1000">
+    <Border BorderBrush="Orange" BorderThickness="3" CornerRadius="6" Background="Yellow">
+        <Grid x:Name="Roof" Margin="4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Border BorderBrush="Orange" BorderThickness="1" CornerRadius="6" Padding="4">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel.Effect>
+                            <DropShadowEffect Color="LightGray"></DropShadowEffect>
+                        </StackPanel.Effect>
+                        <TextBlock Text="欢迎光临" FontSize="60" FontFamily="LiShu"/>
+                        <TextBlock Text="{Binding Rastaurant.Name}" FontSize="60" FontFamily="LiShu"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="小店地址" FontSize="24" FontFamily="LiShu"/>
+                        <TextBlock Text="{Binding Rastaurant.Address}" FontSize="24" FontFamily="Lishu"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="订餐电话" FontSize="24" FontFamily="LiShu"/>
+                        <TextBlock Text="{Binding Rastaurant.Telephone}" FontSize="24" FontFamily="LiShu"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+            <DataGrid AutoGenerateColumns="False" GridLinesVisibility="None" CanUserDeleteRows="False"
+                      CanUserAddRows="False" Margin="0.4" Grid.Row="1" FontSize="16" ItemsSource="{Binding DishMenu}">
+                <DataGridTextColumn Header="菜品" Binding="{Binding Dish.Name}" Width="120"/>
+                <DataGridTextColumn Header="种类" Binding="{Binding Dish.Category}" Width="120"/>
+                <DataGridTextColumn Header="点评" Binding="{Binding Dish.Comment}" Width="120"/>
+                <DataGridTextColumn Header="推荐分数" Binding="{Binding Dish.Score}" Width="120"/>
+                <DataGridTextColumn Header="选中" Binding="{Binding Dish.isSelected}" Width="120"/>
+                
+                <!--<DataGridTemplateColumn.CellTeplate>
+                    <DataTemplate>
+                        <CheckBox IsChecked="{Binding Path=isSelected, UpdateSourceTrigger=PropertyChanged}"
+                                  VerticalAlignment="Center" HorizontalAlignment="Center"
+                                  Command="{Binding Path=DataContext.SelectMenuItemCommand,RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type DataGrid}}}"/>
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTeplate>-->
+            </DataGrid>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="2">
+                <TextBlock Text="共计" VerticalAlignment="Center"></TextBlock>
+                <TextBox IsReadOnly="True" TextAlignment="Center" Width="120" Text="{Binding Count}" Margin="4"/>
+                <Button Content="Order" Height="24" Width="120" Command="{Binding PlaceOrderCommand}"/>
+            </StackPanel>
+        </Grid>
+
+    </Border>
+
+</Window>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="StyletTest.Window1View"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StyletTest"
+        xmlns:s="https://github.com/canton7/Stylet"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance local:Window1ViewModel}"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="106,100,0,0" TextWrapping="Wrap" 
+               Text="{Binding FName,UpdateSourceTrigger=PropertyChanged}"   VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="106,263,0,0" TextWrapping="Wrap" 
+               Text="{Binding Name,UpdateSourceTrigger=PropertyChanged}"   VerticalAlignment="Top" Width="120"/>
+        <Button Content="Say Hello" HorizontalAlignment="Left" Margin="128,310,0,0" 
+                VerticalAlignment="Top" Width="76" Command="{s:Action SayHello}"/>
+        <Button Content="ChangeTxt" HorizontalAlignment="Left" Margin="365,179,0,0" 
+                VerticalAlignment="Top" Width="75" Command="{s:Action BtnCommand}"/>
+        <Button Content="ShowMessage" HorizontalAlignment="Left"  Command="{s:Action ShowMessage}"
+                Margin="533,179,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="ShowDialog" HorizontalAlignment="Left"  Command="{s:Action ShowDialog}"
+            Margin="649,179,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

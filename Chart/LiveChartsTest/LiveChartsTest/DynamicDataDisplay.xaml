@@ -1,0 +1,45 @@
+﻿<Window x:Class="LiveChartsTest.DynamicDataDisplay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:avalon="http://schemas.xceed.com/wpf/xaml/avalondock"
+        Title="DynamicDataDisplay" Height="800" Width="800">
+    <Grid>
+        <avalon:DockingManager>
+            <avalon:DockingManager.Theme>
+                <avalon:MetroTheme></avalon:MetroTheme>
+            </avalon:DockingManager.Theme>
+            <avalon:LayoutRoot>
+                <avalon:LayoutPanel Orientation="Horizontal">
+                    <avalon:LayoutAnchorablePaneGroup DockMinWidth="240" FloatingWidth="240">
+                        <avalon:LayoutAnchorablePane x:Name="panelLeft">
+                            <avalon:LayoutAnchorable Title="Left1"></avalon:LayoutAnchorable>
+                            <avalon:LayoutAnchorable Title="Left2"></avalon:LayoutAnchorable>
+                        </avalon:LayoutAnchorablePane>
+                    </avalon:LayoutAnchorablePaneGroup>
+                    <avalon:LayoutPanel Orientation="Vertical">
+                        <avalon:LayoutDocumentPaneGroup>
+                            <avalon:LayoutDocumentPane x:Name="panelTop">
+                                <avalon:LayoutDocument Title="Top1"></avalon:LayoutDocument>
+                                <avalon:LayoutDocument Title="Top2"></avalon:LayoutDocument>
+                            </avalon:LayoutDocumentPane>
+                        </avalon:LayoutDocumentPaneGroup>
+                        <avalon:LayoutAnchorablePaneGroup DockMinHeight="180" FloatingHeight="180">
+                            <avalon:LayoutAnchorablePane x:Name="panelBottom">
+                                <avalon:LayoutAnchorable Title="Bottom1"></avalon:LayoutAnchorable>
+                                <avalon:LayoutAnchorable Title="Bottom2"></avalon:LayoutAnchorable>
+                                <avalon:LayoutAnchorable Title="Bottom3"></avalon:LayoutAnchorable>
+                            </avalon:LayoutAnchorablePane>
+                        </avalon:LayoutAnchorablePaneGroup>
+                    </avalon:LayoutPanel>
+                    <avalon:LayoutAnchorablePaneGroup DockMinWidth="270" FloatingWidth="270">
+                        <avalon:LayoutAnchorablePane x:Name="panelRight" DockWidth="240" FloatingWidth="240">
+                            <avalon:LayoutAnchorable Title="Right1"></avalon:LayoutAnchorable>
+                            <avalon:LayoutAnchorable Title="Right2"></avalon:LayoutAnchorable>
+                        </avalon:LayoutAnchorablePane>
+                    </avalon:LayoutAnchorablePaneGroup>
+                </avalon:LayoutPanel>
+            </avalon:LayoutRoot>
+        </avalon:DockingManager>
+
+    </Grid>
+</Window>

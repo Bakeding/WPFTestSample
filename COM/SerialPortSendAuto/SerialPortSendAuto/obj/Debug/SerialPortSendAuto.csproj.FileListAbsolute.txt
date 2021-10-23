@@ -1,0 +1,13 @@
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\bin\Debug\SerialPortSendAuto.exe.config
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\bin\Debug\SerialPortSendAuto.exe
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\bin\Debug\SerialPortSendAuto.pdb
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\obj\Debug\MainWindow.baml
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\obj\Debug\MainWindow.g.cs
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\obj\Debug\App.g.cs
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\obj\Debug\SerialPortSendAuto_MarkupCompile.cache
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\obj\Debug\SerialPortSendAuto.g.resources
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\obj\Debug\SerialPortSendAuto.Properties.Resources.resources
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\obj\Debug\SerialPortSendAuto.csproj.GenerateResource.Cache
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\obj\Debug\SerialPortSendAuto.exe
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\obj\Debug\SerialPortSendAuto.pdb
+G:\玉环\ACTransmisson\SerialPortSendAuto\SerialPortSendAuto\obj\Debug\SerialPortSendAuto.csprojResolveAssemblyReference.cache

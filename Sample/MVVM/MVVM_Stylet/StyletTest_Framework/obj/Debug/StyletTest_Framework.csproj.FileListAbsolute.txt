@@ -1,0 +1,17 @@
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\bin\Debug\StyletTest_Framework.exe.config
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\bin\Debug\StyletTest_Framework.exe
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\bin\Debug\StyletTest_Framework.pdb
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\bin\Debug\Stylet.dll
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\bin\Debug\Stylet.xml
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\StyletTest_Framework.csprojAssemblyReference.cache
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\MainWindow.g.cs
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\App.g.cs
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\StyletTest_Framework_MarkupCompile.cache
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\StyletTest_Framework_MarkupCompile.lref
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\MainWindow.baml
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\StyletTest_Framework.g.resources
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\StyletTest_Framework.Properties.Resources.resources
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\StyletTest_Framework.csproj.GenerateResource.cache
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\StyletTest_Framework.csproj.CopyComplete
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\StyletTest_Framework.exe
+G:\CSharpSample\TestSample\MVVM\MVVM_Stylet\StyletTest_Framework\obj\Debug\StyletTest_Framework.pdb

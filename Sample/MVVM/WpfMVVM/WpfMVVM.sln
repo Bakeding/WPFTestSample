@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMVVM", "WpfMVVM\WpfMVVM.csproj", "{8DD7C51E-F84E-426F-BDD6-A0B09CC8DF8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagementMVVM", "HotelManagementMVVM\HotelManagementMVVM.csproj", "{D0DE122A-95EC-4710-A830-84F65A664A43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DD7C51E-F84E-426F-BDD6-A0B09CC8DF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD7C51E-F84E-426F-BDD6-A0B09CC8DF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD7C51E-F84E-426F-BDD6-A0B09CC8DF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD7C51E-F84E-426F-BDD6-A0B09CC8DF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DE122A-95EC-4710-A830-84F65A664A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DE122A-95EC-4710-A830-84F65A664A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DE122A-95EC-4710-A830-84F65A664A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DE122A-95EC-4710-A830-84F65A664A43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
